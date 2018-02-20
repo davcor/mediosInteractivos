@@ -175,8 +175,10 @@ function draw() {
       herramienta = 4;
     }
       if (mouseX > boton17x-boton17x/2 && mouseX < boton17x + boton17tam/2 &&
-      mouseY > boton17y-boton17y/2 && mouseY < boton17y + boton17tam/2) {
+      mouseY > boton17y-boton17tam/2 && mouseY < boton17y + boton17tam/2) {
       herramienta = 5;
+        
+        
     }
     if (mouseX > boton18x && mouseX < boton18x + boton18tam &&
       mouseY > boton18y && mouseY < boton18y + boton18tam) {
