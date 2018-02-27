@@ -35,13 +35,13 @@ segundo = second();
   
   push();
   segundoMapeado= map(segundo,0,59,0,359);
-  rotate(segundoMapeado);
+  rotate(segundoMapeado+190);
   ellipse(0,40,10,10);
   pop();
   
   push();
   minutoMapeado = map( minuto,0,59,0,359);
-  rotate(minutoMapeado);
+  rotate(minutoMapeado+185);
   ellipse(0,180,20);
   pop();
   
