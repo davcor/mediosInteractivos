@@ -50,6 +50,7 @@ segundo = second();// variables de tiempo
       segundoMapeado= map(segundo,0,40,0,359);
     }// reducciòn de la rotacion total del mapeo de noche.
   
+  // estrellas segundos
   rotate(segundoMapeado + 20);
   ellipse(10,20,10,10);
   ellipse(20,30,10,10);
@@ -78,7 +79,7 @@ segundo = second();// variables de tiempo
   //if(hora>12){
     //hora = hora-12;
   //}
-  
+  //sol
   horaMapeada = map(hora,0,23,0,359);
   rotate(horaMapeada);
    fill(200,200,0);
@@ -90,7 +91,7 @@ segundo = second();// variables de tiempo
   
  
   pop();
-  
+  //luna
   horaMapeada = map(hora,0,23,0,359);
   rotate(horaMapeada);
   fill(240,240,240);
