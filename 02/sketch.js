@@ -7,7 +7,7 @@ function setup() {
   createCanvas(236, 356);
   background(194,62,46);
 
-  
+  //rectangulo rayado rojo 1
   stroke(210,195,166); 
 	for (var numFila = 0; numFila < 6; numFila++) {
 		for (var num = 0; num < 1; num++) {
@@ -19,7 +19,7 @@ function setup() {
 	 	posX = 0;
 	}
  
- 
+ //rectangulo cruz rojo 1
   strokeWeight(3);
 	stroke(210,195,166, 30);
   
@@ -34,6 +34,7 @@ function setup() {
 	 	posX = 0;
 	}
  
+  //rectangulo rayado rojo 2
   strokeWeight(1);
   stroke(210,195,166); 
 	for (var numFila = 0; numFila < 6; numFila++) {
@@ -46,6 +47,7 @@ function setup() {
 	 	posX = 0;
 	}
  
+  //rectangulo cruz rojo 2
    strokeWeight(3);
 	stroke(210,195,166, 30);
   
@@ -63,6 +65,7 @@ function setup() {
    fill(194,176,142);
   rect(-1,176,237,182);
   
+  //rectangulo cruz negro 1
    strokeWeight(3);
 	stroke(255,255,255, 30);
   
@@ -78,7 +81,7 @@ function setup() {
 	}
 	 
  
-  
+  //rectangulo rayado negro 1
    strokeWeight(1);
   stroke(0); 
 	for (var numFila = 0; numFila < 6; numFila++) {
@@ -91,6 +94,7 @@ function setup() {
 	 	posX = 0;
 	}
   
+  //rectangulo cruz 2
      strokeWeight(3);
 	stroke(255,255,255, 30);
   
@@ -105,7 +109,7 @@ function setup() {
 	 	posX = 0;
 	}
 	 
-  
+  //rectangulo rayado negro 2
    strokeWeight(1);
   stroke(0); 
 	for (var numFila = 0; numFila < 6; numFila++) {
