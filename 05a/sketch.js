@@ -16,7 +16,7 @@ function setup() {
 
 function draw() { 
   background(10);
-  
+  // variables de tiempo
   ano = year();
   mes = month();
   dia= day();
@@ -26,19 +26,20 @@ minuto = minute();
 segundo = second();
 
   
-  
+  //mover todo al centro
   push();
   translate(height/2, width/2);
  
  
  
-  
+  //estrella segundos
   push();
   segundoMapeado= map(segundo,0,59,0,359);
   rotate(segundoMapeado+190);
   ellipse(0,40,10,10);
   pop();
   
+  //estrella minutos
   push();
   minutoMapeado = map( minuto,0,59,0,359);
   rotate(minutoMapeado+185);
@@ -49,6 +50,7 @@ segundo = second();
   //if(hora>12){
     //hora = hora-12;
   //}
+  //Sol hora
   horaMapeada = map(hora,0,23,0,359);
   rotate(horaMapeada);
    fill(200,200,0);
@@ -58,7 +60,7 @@ segundo = second();
   ellipse(0,100,100,100);
  
   pop();
-  
+  //Luna hora
   horaMapeada = map(hora,0,23,0,359);
   rotate(horaMapeada);
   fill(240,240,240);
